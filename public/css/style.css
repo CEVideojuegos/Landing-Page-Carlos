@@ -46,7 +46,7 @@
      font-weight: normal;
      line-height: normal;
      color: #111111;
-     margin: 0 
+     margin: 0;
 }
  h1 {
      font-size: 24px 
@@ -74,7 +74,8 @@
  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
      color: #212121;
      text-decoration: none!important;
-     opacity: 1 
+     opacity: 1;
+
 }
  button:focus {
      outline: none;
@@ -103,6 +104,12 @@
      -ms-transition: all .3s ease-in-out;
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
+}
+.list-style-disc {
+    list-style: disc;
+}
+.centrar {
+    text-align: center;
 }
 .img-responisve {
      max-width: 100%;
