@@ -244,7 +244,7 @@
     .text-img {padding-top: 40px;}
     .header-top {min-height: inherit;}
     .text-img figure img {width: 100%;}
-   .text-bg {display: none;}
+   .text-bg {display: inline;}
      .slider_section {
         padding-top: 95px;
     }
