@@ -127,7 +127,7 @@
                                         este año ha sido seleccionada nuestra protagonista. Pero, el día del ritual, el
                                         padre de Mannath la ayuda a escapar, y sin otra salida, acaba adentrándose en la
                                         montaña prohibida.</span>
-                                    <a href="#">download</a>
+                                    <a onclick="gtag('event', 'seguimiento', {'event_category' : 'button', 'event_label' : 'click'})" href="#">download</a>
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 ">
@@ -218,7 +218,7 @@
                             <div class="Games">
                                 <h3>Pantalla del juego en 'PC'</h3>
                                 <p>Aqui se puede ver una pequeño prototipo de previsulicacion para ver como se veria el
-                                    juego en 'PC'</p>
+                                    juego en 'PC'...</p>
                                 <a href="#">VER MAS</a>
                             </div>
                         </div>
@@ -239,7 +239,7 @@
                             <div class="Games">
                                 <h3>Pantalla del juego en 'movil'</h3>
                                 <p>Aqui se puede ver una pequeño prototipo de previsulicacion para ver como se veria el
-                                    juego en el 'movil'</p>
+                                    juego en el 'movil'...</p>
                                 <a href="#">VER MAS</a>
                             </div>
                         </div>
@@ -250,8 +250,7 @@
 
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div class="two-box">
-                                <figure><img src="images/Nivel_facil.jpg" alt="#" height="100%"
-                                    width="100%" /></figure>
+                                <figure><img src="images/Nivel_facil.jpg" alt="#" height="100%" width="100%" /></figure>
                             </div>
                         </div>
 
@@ -259,7 +258,7 @@
 
                             <div class="Games">
                                 <h3>Nivel Facil</h3>
-                                <p>Esto seria un bofeto para un nivel facil</p>
+                                <p>Esto seria un bofeto para un nivel facil...</p>
                                 <a href="#">VER MAS</a>
                             </div>
                         </div>
@@ -270,8 +269,8 @@
 
                         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                             <div class="two-box">
-                                <figure><img src="images/Nivel_dificil.jpg" alt="#" height="100%"
-                                    width="100%" /></figure>
+                                <figure><img src="images/Nivel_dificil.jpg" alt="#" height="100%" width="100%" />
+                                </figure>
                             </div>
                         </div>
 
@@ -279,7 +278,7 @@
 
                             <div class="Games">
                                 <h3>Nivel Difiicl</h3>
-                                <p>Esto seria un bofeto para un nivel dificil</p>
+                                <p>Esto seria un bofeto para un nivel dificil...</p>
                                 <a href="#">VER MAS</a>
                             </div>
                         </div>
@@ -392,6 +391,15 @@
                 </div>
             </div>
 
+            <div style="padding-top: 7%; padding-left: 12%;">
+                <table style="width:100%">
+                    <tr>
+                      <td><figure><img src="images/bad-language-black-EN.png" alt="#" height="50%" width="50%" /></figure></td>
+                      <td><figure><img src="images/fear-black-EN.png" alt="#" height="50%" width="50%" /></figure></td>
+                      <td><figure><img src="images/violence-black-EN.png" alt="#" height="50%" width="50%" /></figure></td>
+                    </tr>
+                  </table>
+            </div>
         </div>
     </div>
 
@@ -516,6 +524,16 @@
         // Initialize Firebase
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
+
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQW9YL49KP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-WQW9YL49KP');
     </script>
 </body>
 
